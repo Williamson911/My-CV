@@ -1,0 +1,134 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 0.2fr 1.8fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Left Left Right Right"
+    "Left Left Right Right"
+    "Left Left Right Right";
+}
+
+body {background-color: #1F1F23;}
+
+.Left { grid-area: Left; background-color: #18181B }
+.Right { grid-area: Right; }
+.me {padding-left: 10px;
+    
+}
+h1 {color: #772ce8;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+h2 { color: floralwhite;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-top: 25px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1.2em;
+    
+}
+
+h3 {
+    color: floralwhite;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+h4 {
+    color: #E86126;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+h5 {
+    color: #73618F;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+    
+    
+p { color: floralwhite;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+
+.subtitle { height: 70px; 
+    background-color: #772ce8;   
+}
+
+.languages{ padding-top: 10px;
+    
+}
+
+.icon { float: left;
+    padding-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.phone { position: relative;
+    left: 10px;
+    padding-top: 1px;
+    
+}
+
+.links {position: relative;
+        bottom: -4px;
+    
+}
+
+.diplomes {position: relative;
+           padding-left: 30px;
+           bottom: -30px;
+    
+}
+
+.float {float: right;
+    
+}
+
+#block {position: relative;
+        height: 70px; 
+        width: 100%;
+        background-color: #18181B;
+    
+}
+
+#skills { padding-left: 10px;
+    
+}
+
+a, a:active, a:visited { 
+    color: floralwhite;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+a:hover {
+    color: #772ce8;
+}
