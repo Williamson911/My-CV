@@ -1,26 +1,12 @@
 @media(max-width: 869px) {
-    .left {
+    .container {
         width: 100%;
         padding: 0%;
     }
 }
 
 @media(max-height: 1760px) {
-    .left {
-        height: 100%;
-        padding: 0px;
-    }
-}
-
-@media(max-width: 869px) {
-    .right {
-        width: 100%;
-        padding: 0%;
-    }
-}
-
-@media(max-height: 1760px) {
-    .right {
+    .container {
         height: 100%;
         padding: 0px;
     }
